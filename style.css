@@ -99,4 +99,33 @@ nav ul li a:hover {
 
 .benefit-item img {
     width: 120px;
-    height:
+    height: auto;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social li {
+    margin: 0 15px;
+}
+
+footer .social li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social li a:hover {
+    color: #f39c12;
+}
